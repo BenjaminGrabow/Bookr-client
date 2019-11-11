@@ -1,0 +1,106 @@
+
+.navLink {
+  text-decoration: none;
+  font-size      : 3rem;
+  font-weight: 900;
+  
+  &:hover {
+    color: black;
+    filter: brightness(150%);
+    text-decoration: underline;
+  }
+}
+
+.user {
+  background-image: linear-gradient(to right bottom, rgba(185, 192, 183, 0.8), #d7d1c98c), url(../../img/books.jpg);
+  height          : 100vh;
+  background-size : cover;
+  
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+}
+
+.off {
+  display: none;
+}
+
+.form {
+  display        : flex;
+  flex-direction : column;
+  height         : 90vh;
+  justify-content: center;
+  width          : 100%;
+}
+
+.inputs-btn {
+  display        : flex;
+  justify-content: space-around;
+  align-items    : center;
+  
+  .inputs {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    height         : 20rem;
+    
+    input {
+      height   : 3rem;
+      font-size: 2rem;
+    }
+  }
+  
+  i {
+    font-size: 6rem;
+    color: black;
+  }
+}
+
+.userStyling {
+  display        : flex;
+  justify-content: space-around;
+  width          : 100%;
+  
+  .text {
+    display       : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    
+    p {
+      color: black;
+    }
+  }
+  
+  p {
+    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  i {
+    font-size: 5rem;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+}
+
+.picture {
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.userStyle {
+  width: 100%;
+}
+
+  img {
+    border-radius: .7rem;
+    width        : 50%;
+    height       : 15rem;
+  }
